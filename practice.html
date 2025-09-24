@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <style>
+  :root{
+    --font:"Poppins", sans-serif;
+  }
+    
+
+    nav{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+    }
+    .list-item,.button{
+      display: flex;
+      
+      
+    }
+    .list-item li{
+      list-style: none;
+      margin:20px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      font-family: var(--font);
+    }
+    li:hover{
+      opacity: 0.8;
+    }
+      @media (max-width:772px)
+    {
+      .list-item,.button{
+        display: none;
+      }
+      nav{
+        align-items: center;
+        justify-content:center ;
+      }
+    }
+div .anchor{
+  text-decoration: none;
+  color: black;
+  border: 2px solid black;
+  padding: 13px 15px;
+  font-weight: 600;
+  margin-right: 30px;
+  font-family: var(--font);
+}
+.head{
+  font-size: 40px;
+  text-align: center;
+font-weight: 400;
+font-family: var(--font);
+}
+.info{
+  text-align: center;
+  font-size: 25px;
+  font-family: var(--font);
+}
+.download{
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+.download button{
+      background-color: #09a6bd;
+      border-radius: 5px;
+        border:none;
+        color: azure;
+  padding: 12px 30px;
+  font-family: var(--font);
+  font-size: larger;
+  font-weight: 600;
+}
+.grid-head
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.grid-head-para{
+  text-align: center;
+
+}
+.grid-head-para span{
+  font-size: larger;
+}
+.parent{
+  width: 80vw;
+  margin: auto;
+ display: grid;
+ grid-template-columns: repeat(3,1fr);
+ gap: 30px;
+}
+.child{
+    background-color: #f9f9f9;
+ width: 100%;
+ min-width:200px;
+height: 200px;
+
+
+}
+ @media (max-width:750px)
+    {
+     .parent{
+      grid-template-columns: repeat(2,1fr);
+     }
+      }
+       @media (max-width:492px)
+    {
+     .parent{
+      grid-template-columns: repeat(1,1fr);
+     }
+
+      }
+      .child button{
+            background-color: #5cb85c;
+    color: #fff;
+    padding: 8px 16px;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 6px;
+    border: none;
+    font-family: var(--font);
+    cursor: pointer;
+
+      }
+      .down,.country{
+        font-size: 10px;
+        font-family: var(--font);
+        text-align:center ;
+      }
+      .code{
+        word-break: break-all;
+        font-size: 8px;
+         font-family: var(--font);
+         text-align: center;
+      }
+      h3{
+      text-align: center;
+      }
+   
+      
+  </style>
+</head>
+<body>
+<nav>
+  <div class="image">
+    <img src="https://www.ultraedit.com/wp-content/uploads/2023/01/Frame-1-2.png" alt="">
+  </div>
+  <ul class="list-item">
+    <li>Products</li>
+    <li>Pricing</li>
+    <li>Resources</li>
+    <li>Our Company</li>
+  </ul>
+  <div class="button">
+   <a class="anchor" target="_blank" href="https://www.ultraedit.com/downloads/">DOWNLOAD</a>
+  </div>
+</nav>
+<div class="head">
+  <p>Download <strong>UltraEdit</strong> for Windows</p>
+<a target="_blank" href="https://www.g2.com/products/ultraedit/reviews/"><img src="https://www.ultraedit.com/wp-content/uploads/2022/10/Reviews.png" alt=""></a>
+
+</div>
+<div class="info">Download and try UltraEdit before you buy it! This download includes the full Windows version of the text editor.</div>
+
+<div class="download">
+<button>Downlaod Windows and Mac version</button>
+  </div>
+
+  <div class="grid-head">
+     <img src="https://www.ultraedit.com/wp-content/uploads/2023/01/Frame-1-2.png" alt="">
+     </div>
+   <p class="grid-head-para"><span>Download UltraEdit</span> v2025.0.0.39 (released 2025-08-06) | Latest changes</p>
+<div class="parent">
+  <div class="child">
+    <h3><strong>English</strong></h3>
+    <p class="country">&nbsp;</p>
+  <div class="download">
+    <a href="ue_german_64.exe"><button>Download 64-bit</button></a></div>
+    <div class="down">SHA256</div>
+    <p class="code">FC88DD0B44CF0A7DE31AE2C413D145E351ACCA7A6E7DF4A44BC4A34E5184378E</p>
+  </div>
+  <div class="child">
+     <h3><strong>Deutsch</strong></h3>
+    <p class="country">German</p>
+  <div class="download">
+   <a href="ue_german_64.exe"><button>Download 64-bit</button></a></div>
+    <div class="down">SHA256</div>
+    <p class="code">FC88DD0B44CF0A7DE31AE2C413D145E351ACCA7A6E7DF4A44BC4A34E5184378E</p>
+  </div>
+  <div class="child">
+     <h3><strong>Italiano</strong></h3>
+    <p class="country">Italian</p>
+  <div class="download">
+    <a href="ue_german_64.exe"><button>Download 64-bit</button></a></div>
+    <div class="down">SHA256</div>
+    <p class="code">FC88DD0B44CF0A7DE31AE2C413D145E351ACCA7A6E7DF4A44BC4A34E5184378E</p>
+  </div>
+  <div class="child">
+     <h3><strong>Español</strong></h3>
+    <p class="country">Spanish</p>
+  <div class="download">
+     <a href="ue_german_64.exe"><button>Download 64-bit</button></a></div>
+    <div class="down">SHA256</div>
+    <p class="code">FC88DD0B44CF0A7DE31AE2C413D145E351ACCA7A6E7DF4A44BC4A34E5184378E</p>
+  </div>
+  <div class="child">
+     <h3><strong>français</strong></h3>
+    <p class="country">French</p>
+  <div class="download">
+    <a href="ue_german_64.exe"><button>Download 64-bit</button></a></div>
+    <div class="down">SHA256</div>
+    <p class="code">FC88DD0B44CF0A7DE31AE2C413D145E351ACCA7A6E7DF4A44BC4A34E5184378E</p>
+  </div>
+  <div class="child">
+     <h3><strong>Português brasileiro</strong></h3>
+    <p class="country">Brazilian Portuguese</p>
+  <div class="download">
+    <a href="ue_german_64.exe"><button>Download 64-bit</button></a></div>
+    <div class="down">SHA256</div>
+    <p class="code">FC88DD0B44CF0A7DE31AE2C413D145E351ACCA7A6E7DF4A44BC4A34E5184378E</p>
+  </div>
+  <div class="child">
+     <h3><strong>日本</strong></h3>
+    <p class="country">Japanese</p>
+  <div class="download">
+     <a href="ue_german_64.exe"><button>Download 64-bit</button></a></div>
+    <div class="down">SHA256</div>
+    <p class="code">FC88DD0B44CF0A7DE31AE2C413D145E351ACCA7A6E7DF4A44BC4A34E5184378E</p>
+  </div>
+  <div class="child">
+     <h3><strong>한국어</strong></h3>
+    <p class="country">Korean</p>
+  <div class="download">
+     <a href="ue_german_64.exe"><button>Download 64-bit</button></a></div>
+    <div class="down">SHA256</div>
+    <p class="code">FC88DD0B44CF0A7DE31AE2C413D145E351ACCA7A6E7DF4A44BC4A34E5184378E</p>
+  </div>
+  <div class="child">
+     <h3><strong>华语</strong></h3>
+    <p class="country">Chinese</p>
+  <div class="download">
+    <a href="ue_german_64.exe"><button>Download 64-bit</button></a></div>
+    <div class="down">SHA256</div>
+    <p class="code">FC88DD0B44CF0A7DE31AE2C413D145E351ACCA7A6E7DF4A44BC4A34E5184378E</p>
+  </div>
+  <div class="child">
+     <h3><strong>華語</strong></h3>
+    <p class="country">Traditional Chinese</p>
+  <div class="download">
+    <a href="ue_german_64.exe"><button>Download 64-bit</button></a></div>
+    <div class="down">SHA256</div>
+    <p class="code">FC88DD0B44CF0A7DE31AE2C413D145E351ACCA7A6E7DF4A44BC4A34E5184378E</p>
+  </div>
+</div>
+</body>
+</html>
